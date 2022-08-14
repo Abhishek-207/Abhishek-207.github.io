@@ -19,19 +19,46 @@ nav {
     position: fixed;
     z-index: 1;
     width: 1700px;
-    height: 180px;
+    height: 140px;
     margin: auto;
     /* border: 2px solid red; */
+    /* background-color: #030818; */
+    /*change in  color for navbar*/
 
 
 }
 
+li a {
+    text-decoration: none;
+    color: azure;
+    font-size: large;
+    font-weight: 500;
+    padding: 15px;
+    position: relative;
+    display: block;
+    transition-duration: 0.2s;
+
+
+}
+
+nav li {
+    float: left;
+    padding-top: 45px;
+    padding-right: 78px;
+    padding-bottom: 0px;
+    padding-left: 78px;
+    text-align: center;
+}
+
+
 .img {
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     filter: invert(100%);
-    z-index: 1;
+    z-index: 1000;
     margin: 0;
     padding-bottom: 75px;
+    padding-top: 0px;
     display: inline-block;
     width: 180px;
     height: 250px;
@@ -121,25 +148,6 @@ nav a:hover {
 
     padding-top: 10px;
     transition-duration: 0.2s;
-}
-
-li a {
-    text-decoration: none;
-    color: azure;
-    font-size: large;
-    font-weight: 500;
-    padding: 15px;
-    position: relative;
-    display: block;
-    transition-duration: 0.2s;
-
-
-}
-
-nav li {
-    float: left;
-    padding: 45px 78px;
-    text-align: center;
 }
 
 .submit-button {
@@ -302,6 +310,24 @@ nav li {
 .copy-write-text:hover {
     color: white;
 }
+
+/* Me */
+.my-name {
+    text-decoration: underline;
+    position: absolute;
+    display: inline-block;
+    font-size: large;
+    color: azure;
+    margin-top: 420px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.my-name:hover {
+    color: #a4ff00;
+}
+
+/* till here */
 
 .social-handles {
     display: inline-block;
