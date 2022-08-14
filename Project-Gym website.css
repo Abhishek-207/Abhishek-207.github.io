@@ -312,8 +312,8 @@ nav a:hover {
 }
 
 /* Me */
-.my-name {
-    text-decoration: underline;
+.my-name a {
+/*     text-decoration: underline; */
     position: absolute;
     display: inline-block;
     font-size: large;
@@ -323,7 +323,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-.my-name:hover {
+.my-name a:hover {
     color: #a4ff00;
 }
 
